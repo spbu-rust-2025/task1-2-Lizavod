@@ -14,7 +14,7 @@ fn main() {
 		}
 		match number.parse::<i32>() {
 			Ok(num) => {
-				if num > 0{
+				if num >= 0{
 					sum_n += num;
 				}
 				else{
